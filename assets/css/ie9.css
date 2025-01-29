@@ -82,21 +82,6 @@
 			display: none;
 		}
 
-/* CTA */
-
-	#cta .inner header {
-		float: left;
-	}
-
-	#cta .inner .actions {
-		float: left;
-	}
-
-	#cta .inner:after {
-		clear: both;
-		content: '';
-		display: block;
-	}
 
 /* Main */
 

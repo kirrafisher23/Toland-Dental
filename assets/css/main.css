@@ -3160,7 +3160,7 @@
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: black;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3644,6 +3644,60 @@
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+
+/* one */
+
+	#one{
+		background-color: white;
+	}
+
+	#one .inner .major h2{
+		color: black;
+	}
+
+	#one .inner .major  strong{
+		color: black;
+		line-height: 50px;
+		content: " ";
+	}
+
+	/* three aka two*/
+
+	#three{
+		background-color: white;
+	}
+
+	#three .inner .major h2{
+		color: black;
+	}
+
+	#three .inner .major p strong{
+		color: black;
+	}
+
+	#three .inner .features h3 {
+		color: black;
+	}
+
+	#three .inner .features p {
+		color: black;
+	}
+
+	#three .inner .below h2{
+		color: black;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 
