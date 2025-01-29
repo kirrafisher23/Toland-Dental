@@ -3591,6 +3591,7 @@
 		#main > header h2 {
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
+			color: black;
 		}
 
 		#main > header p {
@@ -3657,8 +3658,6 @@
 
 	#one .inner .major  strong{
 		color: black;
-		line-height: 50px;
-		content: " ";
 	}
 
 	/* three aka two*/
@@ -3688,9 +3687,63 @@
 	}
 
 
+	#two .spotlight {
+		background-color: white;
+	}
+
+	#two .spotlight h2{
+		text-align: center;
+		color: black;
+	}
+
+	#two .spotlight p{
+		text-align: center;
+		color: black;
+	}
+
+	#two .spotlight .actions {
+		display: flex;
+		justify-content: center; /* Center horizontally */
+	}
+	
+	#two .spotlight .actions li {
+		list-style: none; /* Remove bullet points */
+	}
 
 
 
+	#four{
+		background-color: white;
+	}
+
+	#four .inner .major h2{
+		color: black;
+	}
+
+	#four .inner .major  strong{
+		color: black;
+		line-height: 50px;
+		content: " ";
+	}
+
+	#four .inner {
+		text-align: center; /* Centers the title */
+	}
+	
+	.reviews-container {
+		display: flex;
+		flex-wrap: wrap; /* Allows wrapping if the screen is too small */
+		justify-content: center; /* Centers the reviews horizontally */
+		gap: 20px; /* Space between the reviews */
+	}
+	
+	.yelp-review {
+		flex: 1;
+		min-width: 300px; /* Ensures reviews don't get too small */
+		max-width: 400px; /* Ensures reviews stay within a readable size */
+	}
+	
+	
 
 
 
@@ -3813,4 +3866,19 @@
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+
+	/* priv*/
+	#main .inner h3{
+		color: black;
+		text-align: center;
+	}
+	#main .inner h5{
+		color: black;
+		text-align: center;
+	}
+
+	#main .inner p{
+		color: black;
 	}
