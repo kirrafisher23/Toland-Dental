@@ -3869,7 +3869,7 @@
 	}
 
 
-	/* priv*/
+	/* priv and HIPPA*/
 	#main .inner h3{
 		color: black;
 		text-align: center;
@@ -3881,4 +3881,201 @@
 
 	#main .inner p{
 		color: black;
+	}
+
+	#main .inner h3{
+		color: black;
+		text-align: center;
+	}
+
+	#main .inner li{
+		color: black;
+	}
+
+	/*forms*/
+	
+	#forms > header {
+		padding: 12em 0 10em 0 ;
+		background-image: url("../../images/splash.jpg");
+		background-image: url("../../images/splash.jpg");
+		background-image: url("../../images/splash.jpg");
+		background-image: url("../../images/splash.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+		#forms > header h2 {
+			font-size: 1.75em;
+			margin: 0 0 0.5em 0;
+			color: gold;
+			text-align: center;
+			text-shadow: 1px 1px 2px black;
+		}
+
+		#forms > header p {
+			color: inherit;
+			letter-spacing: 0.225em;
+			text-transform: uppercase;
+			top: 0;
+		}
+
+			#forms > header p a {
+				color: inherit;
+			}
+
+		@media screen and (max-width: 1680px) {
+
+			#forms > header {
+				padding: 10em 0 8em 0 ;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#forms > header {
+				padding: 8em 3em 6em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#forms > header {
+				padding: 10em 3em 8em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#forms > header {
+				padding: 5em 3em 3em 3em ;
+			}
+
+				#forms > header h2 {
+					font-size: 1.25em;
+					margin: 0 0 1em 0;
+				}
+
+		}
+
+	body.is-mobile #forms > header {
+		background-attachment: scroll;
+	}
+
+	#forms .inner h5{
+		color: black;
+		text-align: center;
+	}
+
+	.form-buttons{
+	display: flex;
+	flex-wrap: wrap; /* Allows wrapping if the screen is too small */
+	justify-content: center; /* Centers the reviews horizontally */
+	gap: 20px; /* Space between the reviews */
+	}
+
+
+
+		/*contact*/
+	
+		#contact > header {
+			padding: 12em 0 10em 0 ;
+			background-image: url("../../images/splash.jpg");
+			background-image: url("../../images/splash.jpg");
+			background-image: url("../../images/splash.jpg");
+			background-image: url("../../images/splash.jpg");
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: center;
+		}
+	
+			#contact > header h2 {
+				font-size: 1.75em;
+				margin: 0 0 0.5em 0;
+				color: gold;
+				text-align: center;
+				text-shadow: 1px 1px 2px black;
+			}
+	
+			#contact > header p {
+				color: white;
+				letter-spacing: 0.225em;
+				text-transform: uppercase;
+				top: 0;
+				text-shadow: 1px 1px 2px black;
+			}
+	
+				#contact > header p a {
+					color: inherit;
+				}
+	
+			@media screen and (max-width: 1680px) {
+	
+				#contact > header {
+					padding: 10em 0 8em 0 ;
+				}
+	
+			}
+	
+			@media screen and (max-width: 1280px) {
+	
+				#contact > header {
+					padding: 8em 3em 6em 3em ;
+				}
+	
+			}
+	
+			@media screen and (max-width: 980px) {
+	
+				#contact > header {
+					padding: 10em 3em 8em 3em ;
+				}
+	
+			}
+	
+			@media screen and (max-width: 736px) {
+	
+				#contact > header {
+					padding: 5em 3em 3em 3em ;
+				}
+	
+					#contact > header h2 {
+						font-size: 1.25em;
+						margin: 0 0 1em 0;
+					}
+	
+			}
+	
+		body.is-mobile #contact > header {
+			background-attachment: scroll;
+		}
+	
+		#contact .inner h5{
+			color: black;
+			text-align: center;
+		}
+	
+	#contact .wrapper.wrapper.style5 .words{
+		color: black;
+		text-align: center;
+	}
+	
+	.submit{
+		display: flex;
+		flex-wrap: wrap; /* Allows wrapping if the screen is too small */
+		justify-content: center; /* Centers the reviews horizontally */
+		gap: 20px; /* Space between the reviews */
+	}
+
+	#contact .wrapper.style5 input, textarea, select{
+		width: 100%; /* Keep it responsive */
+		max-width: 100%; /* Ensure it does not expand */
+		margin: 0 auto; /* Center the form */
 	}
